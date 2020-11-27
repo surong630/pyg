@@ -1,0 +1,59 @@
+/* 列表页专有的css */
+.nav {
+  overflow: hidden;
+}
+.sk {
+  position: absolute;
+  left: 190px;
+  top: 40px;
+  border-left: 1px solid red;
+  padding: 3px 0 0 14px;
+}
+.sk_list {
+  float: left;
+}
+.sk_list ul li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  line-height: 47px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sk_con {
+  float: left;
+}
+.sk_con ul li {
+  float: left;
+}
+.sk_con ul li a {
+  display: block;
+  line-height: 49px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+.sk_bd {
+  overflow: hidden;
+}
+.sk_bd ul li {
+  float: left;
+  height: 380px;
+  width: 300px;
+  padding-left: 10px;
+  border: 1px solid transparent;
+}
+.sk_bd ul li .style_red {
+  margin-top: 5px;
+}
+.sk_bd ul li:hover {
+  border: 1px solid red;
+}
+.sk_bd .rightshop {
+  background-color: #BE2717;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+}

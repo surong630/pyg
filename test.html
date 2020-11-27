@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var res = prompt('请输入10位');
+    var spl = res.split(',');
+    var arr = new Array(10);
+    console.log(spl)
+    for(let i=0;i<arr.length;i++) {
+      for(let j=i;j<arr.length;j++) {
+        if(spl[i] > spl[j+1]) {
+          let temp = spl[i];
+          spl[i] = spl[j+1];
+          spl[j+1] = temp
+        }
+      }
+    }
+    console.log(spl);
+  </script>
+</body>
+</html>

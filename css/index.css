@@ -1,0 +1,159 @@
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 9px;
+}
+.focus {
+  background-color: pink;
+  width: 721px;
+  height: 455px;
+  float: left;
+}
+.newsflash {
+  width: 250px;
+  height: 455px;
+  float: right;
+}
+.news {
+  height: 165px;
+  border: 1px solid #e4e4e4;
+}
+.news-hd {
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+  padding: 0 15px;
+}
+.news-hd h5 {
+  float: left;
+  font-size: 14px;
+}
+.news-hd .more {
+  float: right;
+}
+.news-bd {
+  padding: 5px 15px 0;
+}
+.news-bd ul li {
+  height: 24px;
+  line-height: 24px;
+}
+.lifeservice {
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: none;
+  overflow: hidden;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li {
+  float: left;
+  width: 63px;
+  height: 70px;
+  border-left: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+}
+.lifeservice ul li i {
+  display: inline-block;
+  width: 24px;
+  height: 28px;
+  background: url('../images/icons.png') no-repeat -16px -16px;
+  margin-top: 12px;
+}
+.bargin {
+  background-color: salmon;
+  margin-top: 5px;
+}
+.recom {
+  height: 143px;
+  margin-top: 12px;
+}
+.recom_hd {
+  float: left;
+  height: 143px;
+  width: 211px;
+  text-align: center;
+  background-color: #5c525c;
+  padding-top: 30px;
+  color: #fff;
+}
+.recom_bd {
+  float: right;
+}
+.recom_bd ul li{
+  float: left;
+  position: relative;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 125px;
+  top: 10px;
+  right: 0;
+  background-color: #ddd;
+}
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid black;
+}
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+  font-weight: 400;
+}
+.box_hd .tab_list {
+  float: right;
+  line-height: 30px;
+}
+.box_hd ul li {
+  float: left;
+}
+.box_hd ul li a {
+  margin: 0 15px;
+}
+.floor .w {
+  margin-top: 20px;
+}
+.box_bd {
+  height: 361px;
+}
+.tab_list_item>div {
+  float: left;
+  height: 361px;
+}
+.col_210 {
+  width: 210px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.col_210 ul li{
+  width: 85px;
+  height: 34px;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  line-height: 34px;
+  margin-right: 10px;
+}
+.col_210 ul {
+  padding-left: 12px;
+}
+.col_329 {
+  width: 329px;
+}
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ccc;
+}
+.col_219 {
+  width: 219px;
+}
+.border-bottom {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
